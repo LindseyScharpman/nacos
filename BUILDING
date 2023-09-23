@@ -36,3 +36,6 @@ Build Instructions for NACOS
 
 	#build nacos
     $ mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U
+
+    # on windows powershell
+    mvn -Prelease-nacos '-Dmaven.test.skip=true' clean install -U
